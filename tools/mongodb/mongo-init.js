@@ -1,9 +1,9 @@
 db.createUser({
-    user: "alrare",
-    pwd: "Mongo43",
+    user: "YOUR_USER",
+    pwd: "YOUR_PASSWORD",
     roles: [{
         role: "readWrite",
-        db: "distribt"
+        db: "YOUR_DATABASE"
     }
     ],
     mechanisms: ["SCRAM-SHA-1"]
