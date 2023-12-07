@@ -4,8 +4,8 @@ services:
     image: rabbitmq:3.9-management-alpine #management version needed to be able to have a User interface
     container_name: rabbitmq
     environment:
-        - RABBITMQ_DEFAULT_USER=DistribtAdmin
-        - RABBITMQ_DEFAULT_PASS=DistribtPass
+        - RABBITMQ_DEFAULT_USER=YOUR_USER
+        - RABBITMQ_DEFAULT_PASS=YOUR_PASS
     ports:
         - 5672:5672
         - 15672:15672
@@ -88,19 +88,19 @@ services:
     ports:
       - 27017:27017
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=distribtUser
-      - MONGO_INITDB_ROOT_PASSWORD=distribtPassword
-      - MONGO_INITDB_DATABASE=distribt
+      - MONGO_INITDB_ROOT_USERNAME=YOUR_USER
+      - MONGO_INITDB_ROOT_PASSWORD=YOUR_PASS
+      - MONGO_INITDB_DATABASE=YOUR_DATABSE
     volumes:
       - ./tools/mongodb/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
   mysql:
     image: mysql:8.0
     container_name: MySql
     environment:
-      MYSQL_DATABASE: 'distribt'
-      MYSQL_USER: 'distribtUser'
-      MYSQL_PASSWORD: 'distribtPassword'
-      MYSQL_ROOT_PASSWORD: 'distribtRootPassword'
+      MYSQL_DATABASE: 'YOUR_DATABSE'
+      MYSQL_USER: 'YOUR_USER'
+      MYSQL_PASSWORD: 'YOUR_PASS'
+      MYSQL_ROOT_PASSWORD: 'YOUR_ROOT_PASS'
     ports:
       # de normal seria 3306:3306 pero tengo el 3306 ocupado en mi máquina personal.
       - 3307:3306
