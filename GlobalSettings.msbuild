@@ -1,13 +1,6 @@
 <Project>
   <PropertyGroup>
-    <Authors>Ivan Abad</Authors>
-    <Company>NetMentor</Company>
-    <Product>NetMentor Distribt</Product>
-    <Copyright>Copyright NetMentor 2022</Copyright>
-    <Version>1.0.0</Version>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/ElectNewt/Distribt</RepositoryUrl>
-    <Description>Library to build distributed applications</Description>
+    <Authors>Authors</Authors>
   </PropertyGroup>
   <PropertyGroup>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
