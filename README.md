@@ -2,7 +2,7 @@
 
 El patron _CQRS_ ayuda a separar la lógica del sistema en escrituras y lecturas
 
-<img width="715" alt="image1" src="https://github.com/alrare/pattern-CQRS/blob/main/PatternCQRS-1.drawio.png">
+[alt text](https://github.com/alrare/pattern-CQRS/blob/main/PatternCQRS-1.drawio.png)
 
 A través de un _API Gateway_ se mantiene un servicio de escritura y varios servicios de lectura (varios pods kubernetes escalamiento vertical u horizontal)
 
