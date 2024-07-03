@@ -30,3 +30,8 @@ El uso de _CQRS_ va muy relacionado _Event Sourcing_ en la base de datos de escr
 2. Descripción (Detalles del producto)
 3. Stock       (Microservicio Almacén) 
 4. Precio      (Microservicio Ventas)
+
+
+<img width="869" alt="image" src="https://github.com/alrare/pattern-CQRS/assets/44535383/62fb3368-bd69-40b6-a84d-b7b4d21050b4">
+
+
